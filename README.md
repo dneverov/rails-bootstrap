@@ -1,6 +1,22 @@
 Rails Bootstrap
 ================
 
+`$ rails server`
+
+- _can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile._
+
+in Gemfile:
+`gem 'sqlite3', '~> 1.3', '< 1.4'`
+
+- _Autoprefixer doesn’t support Node v0.10.37. Update it._
+
+in Gemfile:
+`gem 'mini_racer'`
+
+
+
+
+-- cut below --
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
